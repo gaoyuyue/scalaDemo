@@ -62,8 +62,8 @@ object TypeFuture {
       println("we got")
     }
     p.future
-    val pool = Executors.newFixedThreadPool(4)
-    val executionContext = ExecutionContext.fromExecutorService(pool)
+//    val pool = Executors.newFixedThreadPool(4)
+//    val executionContext = ExecutionContext.fromExecutorService(pool)
 
   }
 
